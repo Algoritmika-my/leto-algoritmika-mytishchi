@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
 <title>Летние IT-смены 2026 — Алгоритмика Мытищи</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
@@ -276,134 +278,6 @@ a{text-decoration:none;color:inherit}
 
 /* ========== REVEAL ========== */
 
-/* ========== MOBILE RESPONSIVE FIXES ========== */
-@media (max-width: 767px){
-  html{font-size:17px;-webkit-text-size-adjust:100%}
-  body{font-size:1rem;line-height:1.55}
-  .ctn{padding-left:18px;padding-right:18px}
-  .sec{padding:48px 0}
-
-  .ttl{font-size:1.65rem;line-height:1.22;margin-bottom:14px;letter-spacing:-.02em}
-  .sub{font-size:1rem;line-height:1.6;max-width:100%}
-
-  .btn{width:100%;min-height:52px;padding:15px 18px;font-size:1rem;line-height:1.25;border-radius:16px;text-align:center}
-
-  .nav{padding:12px 0}
-  .nav-logo{font-size:1.08rem}
-  .nav-links.open{padding:14px 18px 18px;gap:6px}
-  .nav-links a{font-size:1rem;padding:13px 14px}
-  .nav-cta{margin-top:4px;padding:14px!important}
-  .burger{padding:8px;margin-right:-4px}
-  .burger span{width:26px;height:3px}
-
-  .hero{padding:104px 0 44px}
-  .hero-badge{font-size:.92rem;padding:8px 16px;margin-bottom:18px}
-  .hero h1{font-size:2rem;line-height:1.12;margin-bottom:16px;letter-spacing:-.03em}
-  .hero-p{font-size:1.06rem;line-height:1.62;margin-bottom:26px;color:#4f4f66}
-  .hero-btns{gap:12px}
-  .hero-stats{grid-template-columns:1fr;gap:10px;margin-top:28px}
-  .hero-stat{display:flex;align-items:center;justify-content:space-between;text-align:left;padding:16px 18px;border-radius:16px}
-  .hero-stat b{font-size:1.2rem}
-  .hero-stat small{font-size:.9rem;text-align:right}
-
-  .adv-row{grid-template-columns:1fr;gap:12px;margin-top:24px}
-  .adv-c{display:grid;grid-template-columns:auto 1fr;grid-template-areas:'ico title' 'ico text';column-gap:14px;text-align:left;padding:18px;border-radius:18px}
-  .adv-c .ico{grid-area:ico;font-size:2rem;margin:0;line-height:1}
-  .adv-c h3{grid-area:title;font-size:1rem;margin-bottom:4px}
-  .adv-c p{grid-area:text;font-size:.92rem;line-height:1.45}
-  .badges{gap:10px}
-  .badge{padding:14px 16px;border-radius:16px}
-  .badge .bi{font-size:1.5rem}
-  .badge .bt{font-size:.95rem;line-height:1.35}
-  .badge .bt span{font-size:.82rem;line-height:1.35}
-
-  .prog-grid{gap:16px;margin-top:24px}
-  .prog{border-radius:20px}
-  .prog-top{padding:22px 20px 18px}
-  .prog-age{font-size:.82rem;padding:5px 13px;margin-bottom:10px}
-  .prog-top h3{font-size:1.32rem;line-height:1.22;padding-right:44px}
-  .prog-emo{font-size:2.2rem;top:16px;right:16px}
-  .prog-body{padding:18px 20px 22px}
-  .prog-d{font-size:1rem;line-height:1.58;margin-bottom:14px}
-  .prog-ul li{font-size:.96rem;line-height:1.5;padding:5px 0;gap:8px}
-  .prog-tag{font-size:.78rem;padding:5px 10px;border-radius:8px}
-
-  .gl-grid{grid-template-columns:1fr;gap:14px;margin-top:22px}
-  .gl-item{aspect-ratio:4/3;border-radius:18px}
-  .gl-item span{font-size:.95rem;padding:22px 14px 12px;line-height:1.35}
-
-  .qz .ctn > div:first-child{font-size:1.55rem!important;line-height:1.25!important}
-  .qz-box{padding:24px 18px;border-radius:20px}
-  .qz-q{font-size:1.18rem;line-height:1.35}
-  .qz-h{font-size:.95rem;margin-bottom:16px}
-  .qz-opts{gap:10px}
-  .qz-opt{font-size:1rem;line-height:1.35;padding:15px 14px;border-radius:15px;min-height:56px}
-  .qz-opt .oi{font-size:1.35rem}
-  .qz-res h3{font-size:1.18rem;line-height:1.35}
-  .qz-res .rp{font-size:1.02rem;line-height:1.45}
-  .qz-res p{font-size:.98rem;line-height:1.58}
-  .qz-why{padding:16px;border-radius:15px}
-  .qz-why .qw-title{font-size:.85rem;line-height:1.35}
-  .qz-why .qw-item{font-size:.95rem;line-height:1.48}
-  .qz-restart{font-size:.95rem;margin-top:12px}
-
-  .sc-grid{gap:12px;margin-top:24px}
-  .sc{padding:18px;border-radius:18px}
-  .sc-date{font-size:1.06rem;line-height:1.35;margin-bottom:9px}
-  .sc-fmt{font-size:.72rem;padding:4px 8px;margin-bottom:9px}
-  .sc-loc{font-size:.92rem;line-height:1.5;margin-bottom:8px}
-  .sc-progs{gap:6px}
-  .sc-pt{font-size:.72rem;padding:4px 7px;border-radius:6px}
-  .sc-note{font-size:.82rem;line-height:1.45;margin-top:7px}
-
-  .pr-grid{gap:16px;margin-top:24px}
-  .pr{padding:26px 18px;border-radius:20px;text-align:left}
-  .pr-label{font-size:.95rem;line-height:1.35}
-  .pr h3{font-size:1.18rem;line-height:1.3}
-  .pr-amt{font-size:2rem;line-height:1.15}
-  .pr-note{font-size:.86rem}
-  .pr-early{font-size:.9rem;line-height:1.45;padding:12px;margin:16px 0}
-  .pr-inc li{font-size:.95rem;line-height:1.45;padding:5px 0}
-  .pr.feat::after{font-size:.62rem;top:14px;right:-38px}
-  .tax{font-size:.95rem;line-height:1.45;padding:16px;text-align:left;border-radius:16px}
-
-  .frm-text h2{font-size:1.62rem;line-height:1.22}
-  .frm-text p{font-size:1rem;line-height:1.55}
-  .frm-phone{font-size:1.1rem;line-height:1.35;margin-bottom:22px}
-  .frm-box{padding:18px 14px;border-radius:20px;overflow:hidden}
-  .frm-box iframe,.frm-box form{max-width:100%!important}
-
-  .ft{padding:34px 0 22px}
-  .ft-grid{gap:22px}
-  .ft-brand{font-size:1.05rem}
-  .ft p,.ft a{font-size:.95rem;line-height:1.55}
-  .ft h4{font-size:.98rem;margin-bottom:8px}
-  .ft-bot{font-size:.82rem;line-height:1.4}
-}
-
-@media (max-width: 374px){
-  html{font-size:16px}
-  .ctn{padding-left:14px;padding-right:14px}
-  .hero h1{font-size:1.78rem}
-  .ttl{font-size:1.46rem}
-  .prog-top h3{font-size:1.18rem}
-  .pr-amt{font-size:1.78rem}
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-  .hero h1{font-size:2.75rem}
-  .ttl{font-size:2.15rem;line-height:1.25}
-  .nav-links a{font-size:.9rem;padding:8px 9px}
-  .prog-grid{display:grid;grid-template-columns:1fr 1fr}
-  .prog-grid .prog:last-child{grid-column:1 / -1}
-  .gl-grid{grid-template-columns:repeat(2,1fr)}
-}
-
-@media (hover:none){
-  .btn:hover,.prog:hover,.gl-item:hover{transform:none}
-}
-
-
 </style>
 </head>
 <body>
@@ -495,12 +369,12 @@ a{text-decoration:none;color:inherit}
     <div class="ttl">Как проходят наши смены</div>
     <p class="sub">Фото с прошлых летних интенсивов</p>
     <div class="gl-grid">
-          <div class="gl-item"><img src="img/1.jpg" alt="Занятия в оборудованном классе" width="800" height="600"><span>Занятия в оборудованном классе</span></div>
-          <div class="gl-item"><img src="img/2.jpg" alt="Защита проектов перед аудиторией" width="800" height="600"><span>Защита проектов перед аудиторией</span></div>
+          <div class="gl-item"><img src="img/1.jpg" alt="Занятия в классе" width="800" height="600"><span>Занятия в классе</span></div>
+          <div class="gl-item"><img src="img/2.jpg" alt="Весёлые перемены" width="800" height="600"><span>Весёлые перемены</span></div>
           <div class="gl-item"><img src="img/3.jpg" alt="Работа над проектами" width="800" height="600"><span>Работа над проектами</span></div>
           <div class="gl-item"><img src="img/4.jpg" alt="Вручение сертификатов" width="800" height="600"><span>Вручение сертификатов</span></div>
-          <div class="gl-item"><img src="img/5.jpg" alt="Знакомство с робототехникой" width="800" height="600"><span>Знакомство с робототехникой</span></div>
-          <div class="gl-item"><img src="img/6.jpg" alt="Весёлые перемены и дружба" width="800" height="600"><span>Весёлые перемены и дружба</span></div>
+          <div class="gl-item"><img src="img/5.jpg" alt="Робототехника" width="800" height="600"><span>Робототехника</span></div>
+          <div class="gl-item"><img src="img/6.jpg" alt="Игровая зона" width="800" height="600"><span>Игровая зона</span></div>
     </div>
   </div>
 </section>
@@ -515,24 +389,24 @@ a{text-decoration:none;color:inherit}
         <div class="qz-step on" id="s1">
           <div class="qz-q">Сколько лет ребёнку?</div><div class="qz-h">Выберите возраст</div>
           <div class="qz-opts">
-            <button class="qz-opt" onclick="qa(1,\'young\',this)"><span class="oi">&#129490;</span>7–9 лет</button>
-            <button class="qz-opt" onclick="qa(1,\'mid\',this)"><span class="oi">&#128102;</span>10–12 лет</button>
-            <button class="qz-opt" onclick="qa(1,\'teen\',this)"><span class="oi">&#129489;</span>13–16 лет</button>
+            <button class="qz-opt" onclick="qa(1,'young')"><span class="oi">&#129490;</span>7–9 лет</button>
+            <button class="qz-opt" onclick="qa(1,'mid')"><span class="oi">&#128102;</span>10–12 лет</button>
+            <button class="qz-opt" onclick="qa(1,'teen')"><span class="oi">&#129489;</span>13–16 лет</button>
           </div>
         </div>
         <div class="qz-step" id="s2">
           <div class="qz-q">Что интересует?</div><div class="qz-h">Ближайшее направление</div>
           <div class="qz-opts">
-            <button class="qz-opt" onclick="qa(2,\'cre\',this)"><span class="oi">&#127912;</span>Творчество, видео, мультфильмы</button>
-            <button class="qz-opt" onclick="qa(2,\'gam\',this)"><span class="oi">&#127918;</span>Игры, сайты, цифровой мир</button>
-            <button class="qz-opt" onclick="qa(2,\'tec\',this)"><span class="oi">&#128187;</span>Программирование, ИИ, боты</button>
+            <button class="qz-opt" onclick="qa(2,'cre')"><span class="oi">&#127912;</span>Творчество, видео, мультфильмы</button>
+            <button class="qz-opt" onclick="qa(2,'gam')"><span class="oi">&#127918;</span>Игры, сайты, цифровой мир</button>
+            <button class="qz-opt" onclick="qa(2,'tec')"><span class="oi">&#128187;</span>Программирование, ИИ, боты</button>
           </div>
         </div>
         <div class="qz-step" id="s3">
           <div class="qz-q">Какой формат?</div><div class="qz-h">Полный день: питание, прогулки, английский</div>
           <div class="qz-opts">
-            <button class="qz-opt" onclick="qa(3,\'h\',this)"><span class="oi">&#127780;</span>Полдня (10:00 – 14:00)</button>
-            <button class="qz-opt" onclick="qa(3,\'f\',this)"><span class="oi">&#9728;&#65039;</span>Полный день (10:00 – 18:00)</button>
+            <button class="qz-opt" onclick="qa(3,'h')"><span class="oi">&#127780;</span>Полдня (10:00 – 14:00)</button>
+            <button class="qz-opt" onclick="qa(3,'f')"><span class="oi">&#9728;&#65039;</span>Полный день (10:00 – 18:00)</button>
           </div>
         </div>
         <div class="qz-res" id="qr">
@@ -617,11 +491,11 @@ document.getElementById('bg').onclick=function(){document.getElementById('nl').c
 document.querySelectorAll('#nl a').forEach(function(a){a.onclick=function(){document.getElementById('nl').classList.remove('open')}});
 
 var Q={a:null,i:null,f:null};
-function qa(step,v,el){
+function qa(step,v){
   if(step===1)Q.a=v;if(step===2)Q.i=v;if(step===3)Q.f=v;
   var opts=document.querySelectorAll('#s'+step+' .qz-opt');
   opts.forEach(function(o){o.classList.remove('sel')});
-  (el || event.currentTarget).classList.add('sel');
+  event.currentTarget.classList.add('sel');
   setTimeout(function(){
     if(step<3){
       document.getElementById('s'+step).classList.remove('on');
